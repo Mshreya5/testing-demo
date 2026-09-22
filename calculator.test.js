@@ -26,12 +26,12 @@ describe("Add feature of the calculator",()=>{
      test("Subtract 2 positive numbers",()=>{
         expect(sub(10,5)).toBe(5);
     });
-    // test("Multiply 2 positive numbers",()=>{
-    //     expect(mul(5,10)).toBe(50);
-    // });
-    // test("Divide 2 positive numbers",()=>{
-    //     expect(div(10,5)).toBe(2);
-    // });
+    test("Multiply 2 positive numbers",()=>{
+        expect(mul(5,10)).toBe(50);
+    });
+    test("Divide 2 positive numbers",()=>{
+        expect(div(10,5)).toBe(2);
+    });
 });
 
 //yet another manifest language-  YAML
