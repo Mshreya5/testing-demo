@@ -29,6 +29,9 @@ describe("Add feature of the calculator",()=>{
     test("Multiply 2 positive numbers",()=>{
         expect(mul(5,10)).toBe(50);
     });
+     test("Multiply 2 positive numbers",()=>{
+        expect(mul(5,10)).toBe(51);
+    });
     test("Divide 2 positive numbers",()=>{
         expect(div(10,5)).toBe(2);
     });
